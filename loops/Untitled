@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int isPrime;
+    cout << "Enter number: ";
+    cin >> isPrime;  
+
+    for (int i =2; i < isPrime-1;i++) {
+        if (isPrime % i ==0) {
+        cout << "Not Prime" << endl;
+        return 0;
+        }
+    }
+    cout << "Prime" <<endl;
+    return 0;
+}
