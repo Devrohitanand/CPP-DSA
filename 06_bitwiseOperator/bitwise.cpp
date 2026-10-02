@@ -7,10 +7,10 @@ int main(){                // bitwise : left shift operator
 }
 
 
-#include <iostream>
-using namespace std;
-int main(){                // bitwise : right shift operator
+// #include <iostream>
+// using namespace std;
+// int main(){                // bitwise : right shift operator
     
-    cout << (10 >> 2) << endl;
-    return 0;
-}
+//     cout << (10 >> 2) << endl;
+//     return 0;
+// }

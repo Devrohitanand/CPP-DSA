@@ -8,12 +8,12 @@ int reverseN(int n){
         rev = rev * 10 + digit;
         n = n / 10;
     }
-
     return rev;
-
-
 }
+
 int main (){
-    cout << reverseN(123456) << endl;
+    int a;
+    cin>>a;
+    cout << reverseN(a) << endl;
     return 0;
 }
