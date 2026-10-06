@@ -7,8 +7,8 @@ int main(){
     int arr[6] = {4,2,0,3,2,5};
     int water = 0;
 
-    for (int i = 0; i < 6 ; i++) {
-
+    for (int i = 0; i < 6 ; i++) {                         // Time complexity O(n^2)
+                                                           // But this is a brute-force approach, and it is not an optimal solution.
         int leftMax = 0;
         int rightMax = 0;
 
